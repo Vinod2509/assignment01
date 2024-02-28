@@ -1,0 +1,74 @@
+/* 
+
+.firstline {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+
+
+/* Overall section styling */
+.lets-connect-section {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 40px 0; /* Top and bottom padding */
+    text-align: center; /* Center content horizontally */
+}
+
+/* Container styling */
+.container {
+    max-width: 600px; /* Limit container width */
+    margin: 0 auto; /* Center container horizontally */
+}
+
+/* Form styling */
+.lets-connect-section form {
+    display: flex; /* Arrange elements horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+.firstline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%; /* Make fields cover 90% width */
+}
+
+.input-field input,
+.message-field textarea {
+    padding: 15px 20px; /* Padding for readability */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    background-color: #fff; /* White background */
+    width: calc(33.33% - 20px); /* Set width for each field */
+    margin-bottom: 20px; /* Spacing between fields */
+}
+
+.input-field input[type="text"] {
+    width: calc(100% - 20px); /* Set width for each field */
+}
+
+.message-field textarea {
+    width: calc(100% - 20px); /* Set width for textarea */
+    height: 100px; /* Adjust height as needed */
+    resize: none; /* Disable textarea resizing */
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #38a3a5; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Make button clickable */
+    transition: background-color 0.2s ease-in-out; /* Add hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9; /* Darken blue on hover */
+}
